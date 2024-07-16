@@ -1,5 +1,5 @@
 
-
+/**/
 * {
     margin: 0;
     padding: 0;
@@ -314,9 +314,12 @@ button img {
 
 @media (max-width: 1380px) {
     header {
-        width: 90vw;
-        gap: 5%;
-        grid-template-columns: 1fr 1fr;
+        top: 20px;
+        width: 100vw;
+        gap: 10%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
     }
 
     header img {
@@ -346,6 +349,15 @@ button img {
 
 
 @media (max-width: 768px) {
+
+    header {
+        top: 20px;
+        width: 100vw;
+        gap: 10%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
 
     .content {
         width: 100%;
@@ -389,6 +401,8 @@ button img {
         
     }
 
+  
+
     .indicators {
         position: absolute;
         width: 60px;
@@ -405,6 +419,15 @@ button img {
 
     @media (max-width: 480px){
 
+        header {
+            top: 20px;
+            width: 100vw;
+            gap: 10%;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            text-align: center;
+        }
+
         .list {
             width: 90vw;
         }
@@ -413,6 +436,7 @@ button img {
          
     
         }
+
 
         .content {
             position: absolute;
@@ -423,6 +447,15 @@ button img {
             justify-content: center;
             align-items: center;
             top: 1%;
+        }
+
+        h2 {
+            font-size: 4em;
+        }
+
+        .description {
+            font-size: 10px;
+            text-align: center;
         }
     } 
 
