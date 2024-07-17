@@ -254,7 +254,7 @@ button img {
 
     .content {
         position: absolute;
-        width: 100vw;
+        width: 90%;
         left: 50%;
         transform: translateX(-50%);
         display: flex;
@@ -263,41 +263,27 @@ button img {
         top: 20%;
     }
 
-    .list {
-        width: 100vw;
-    }
-
-    .jordan-information {
-        font-size: 40px;
+    .jordan-img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        
     }
 
     h2 {
-        font-size: 8em;
+        font-size: 6em;
     }
 
     .description {
         font-size: 20px;
         text-align: center;
-        
     }
 
     .information {
-        width: 200px;
-        height: 60px;
+        width: 300px;
+        height: 50px;
         font-size: 20px;
-    }
-
-
-    .jordan-img {
-        width: 60%;
-        top: 60%;
-        left: 20%;
-    }
-
-    .arrows {
-        width: 90vw;
-     
-
     }
 
     .indicators {
@@ -332,19 +318,125 @@ button img {
 
     .content {
         position: absolute;
+        width: 90%;
         left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top: 20%;
+    }
+
+    .jordan-img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    h2 {
+        font-size: 6em;
+    }
+
+    .description {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .information {
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .indicators {
+        position: absolute;
+        width: 60px;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1024px) , (max-width: 1280px) {
+
+    .content {
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 1%;
+    }
+
+  
+
+    .indicators {
+        position: absolute;
+        width: 60px;
+        top: 80%;
+        left: 50%;
         transform: translateX(-50%);
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .jordan-img {
-        width: 100%;
+    .indicators .number {
+        font-size: 3em;
+        font-family: "League Gothic", sans-serif;
     }
-}
 
+    .indicators ul {
+        width: 80px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .jordan-img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    
+    .information {
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .left-arrow, .right-arrow {
+        pointer-events: all;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    button img {
+        width: 10px;
+        margin-top: 4px;
+
+        }
+
+    }
 
 
 
@@ -360,15 +452,37 @@ button img {
     }
 
     .content {
-        width: 100%;
         position: absolute;
+        width: 80%;
         left: 50%;
-        top: 10%;
         transform: translateX(-50%);
         display: flex;
         justify-content: center;
         align-items: center;
+        top: 1%;
+    }
+
+    .jordan-img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
         
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+
+    .description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .information {
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
     }
 
     .indicators {
@@ -390,15 +504,14 @@ button img {
 @media (max-width: 540px) {
 
     .content {
-        width: 100%;
         position: absolute;
+        width: 90%;
         left: 50%;
-        top: 10%;
         transform: translateX(-50%);
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        top: 1%;
     }
 
   
@@ -413,7 +526,38 @@ button img {
         justify-content: center;
         align-items: center;
     }
+
+    .jordan-img {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
     
+    .information {
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .left-arrow, .right-arrow {
+        pointer-events: all;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    button img {
+        width: 10px;
+        margin-top: 4px;
+
+        }
 
     }
 
@@ -449,6 +593,16 @@ button img {
             top: 1%;
         }
 
+        .jordan-img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+            
+        }
+
+      
+
         h2 {
             font-size: 4em;
         }
@@ -457,7 +611,41 @@ button img {
             font-size: 10px;
             text-align: center;
         }
-    } 
+
+        .information {
+            width: 100px;
+            height: 30px;
+            font-size: 10px;
+        }
+
+        .indicators .number {
+            font-size: 3em;
+            font-family: "League Gothic", sans-serif;
+        }
+
+        .indicators ul {
+            width: 80px;
+            display: flex;
+            gap: 10px;
+        }
+        .left-arrow, .right-arrow {
+            pointer-events: all;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        button img {
+            width: 10px;
+            margin-top: 4px;
+
+            }
+    }  
 
     
 
