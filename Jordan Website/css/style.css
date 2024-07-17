@@ -1,5 +1,5 @@
 
-/**/
+/*mauricio*/
 * {
     margin: 0;
     padding: 0;
@@ -233,8 +233,7 @@ button img {
 }
 
 
-@media (max-width: 2560px){
-
+@media (max-width: 1380px)  , (max-width: 3840px) {
     header {
         top: 20px;
         width: 100vw;
@@ -265,7 +264,7 @@ button img {
 
     .jordan-img {
         position: absolute;
-        top: 50%;
+        top: 30%;
         left: 50%;
         transform: translateX(-50%);
         
@@ -281,7 +280,7 @@ button img {
     }
 
     .information {
-        width: 300px;
+        width: 200px;
         height: 50px;
         font-size: 20px;
     }
@@ -296,70 +295,19 @@ button img {
         justify-content: center;
         align-items: center;
     }
-} 
 
-@media (max-width: 1380px) {
-    header {
-        top: 20px;
-        width: 100vw;
-        gap: 10%;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        text-align: center;
+    .indicators .number {
+        font-size: 8em;
+        font-family: "League Gothic", sans-serif;
     }
 
-    header img {
-        width: 50px;
-    }
-
-    header nav ul {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .content {
-        position: absolute;
-        width: 90%;
-        left: 50%;
-        transform: translateX(-50%);
+    .indicators ul {
+        width: 100px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 20%;
+        gap: 10px;
     }
 
-    .jordan-img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%);
-        
-    }
-
-    h2 {
-        font-size: 6em;
-    }
-
-    .description {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .information {
-        width: 300px;
-        height: 50px;
-        font-size: 20px;
-    }
-
-    .indicators {
-        position: absolute;
-        width: 60px;
-        top: 80%;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
 }
 
 @media (max-width: 1024px) , (max-width: 1280px) {
